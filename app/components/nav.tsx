@@ -32,8 +32,15 @@ export const Navigation: React.FC = () => {
 							href="/projects"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Projects
+							Portfolio
 						</Link>
+						<Link
+							href="/test"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						>
+							Test
+						</Link>
+
 						<Link
 							href="/contact"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
@@ -48,6 +55,8 @@ export const Navigation: React.FC = () => {
 					>
 						<ArrowLeft className="w-6 h-6 " />
 					</Link>
+
+					
 				</div>
 			</div>
 		</header>
